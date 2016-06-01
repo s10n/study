@@ -1,9 +1,9 @@
 {
-  "name": "jekyll-base",
-  "description": "Jekyll을 시작하기 위한 템플릿입니다.",
+  "name": "study",
+  "description": "심철환의 개발 공부",
   "authors": "심철환",
   "license": "MIT",
-  "homepage": "https://github.com/s10n/jekyll-base",
+  "homepage": "https://github.com/s10n/study",
   "ignore": [
     "**/.*",
     "node_modules",

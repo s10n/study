@@ -1,6 +1,6 @@
 # Project
-title: jekyll-base
-description: Jekyll을 시작하기 위한 템플릿입니다.
+title: 심철환의 개발 공부
+description: 심철환의 개발 공부
 
 # Author
 author: 심철환
@@ -8,7 +8,7 @@ email: a@akaiv.com
 github_username: s10n
 
 # Configuration
-baseurl: /jekyll-base
+baseurl: /study
 permalink: /:title
 kramdown:
   input: GFM
