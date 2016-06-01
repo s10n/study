@@ -4,6 +4,7 @@
   "authors": "심철환",
   "license": "MIT",
   "homepage": "https://github.com/s10n/jekyll-base",
+  "private": true,
   "ignore": [
     "**/.*",
     "node_modules",
