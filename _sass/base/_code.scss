@@ -1,0 +1,6 @@
+// Github 마크다운에서 보여주는 코드의 모양을 복제
+pre {
+  padding: 16px;
+  background-color: $code-bg;
+  @include border-radius($border-radius);
+}
