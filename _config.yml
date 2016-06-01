@@ -32,3 +32,10 @@ collections:
   studies:
     output: true
     permalink: /study/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: studies
+    values:
+      layout: study

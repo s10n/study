@@ -8,8 +8,12 @@ layout: default
     {% if page.reference %}<p class="post-meta">참고: <a href="{{ page.reference.url }}" target="_blank">{{ page.reference.title }}</a></p>{% endif %}
   </header>
 
-  <div class="post-content">
+  <section class="post-content">
     {{ content }}
-  </div>
+  </section>
+
+  <footer class="post-footer">
+    {% include biography.html %}
+  </footer>
 
 </article>

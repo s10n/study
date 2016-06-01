@@ -9,7 +9,7 @@ layout: default
   <ul class="study-list">
     {% for study in site.studies %}
       <li>
-        <h2><a href="{{ study.url | prepend: site.baseurl }}">{% if study.category %}{{ study.category }} - {% endif %}{{ study.title }}</a></h2>
+        <a href="{{ study.url | prepend: site.baseurl }}">{% if study.category %}{{ study.category }} - {% endif %}{{ study.title }}</a>
       </li>
     {% endfor %}
   </ul>
