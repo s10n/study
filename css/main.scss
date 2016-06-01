@@ -3,7 +3,16 @@
 ---
 @charset "utf-8";
 
+@import "vendors/extensions";
 @import "vendors/bootstrap";
 @import "vendors/syntax-highlighting";
 
+@import "base/typography";
 @import "base/code";
+
+@import "components/tables";
+
+@import "layout/post";
+@import "layout/post-header";
+@import "layout/post-content";
+@import "layout/post-footer";

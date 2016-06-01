@@ -1,0 +1,5 @@
+// 글 영역
+// 1. 가독성을 위해 최대 폭을 제한한다.
+.post {
+  max-width: map-get($container-max-widths, lg); // 1
+}

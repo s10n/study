@@ -1,0 +1,7 @@
+// 글의 푸터
+// biography.html
+.post-footer {
+  @extend .text-muted;
+  line-height: 3rem;
+  margin-top:  3rem;
+}

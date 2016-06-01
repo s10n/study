@@ -1,0 +1,22 @@
+.post-content {
+  // 글 본문 내 섹션 제목
+  // 1. 밑줄이 있다.
+  h2 {
+    border-bottom: 1px solid $hr-border-color; // 1
+    margin-top:    3rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+  }
+
+  // 글 본문 내 섹션 내 항목들의 제목
+  // 1. 서로의 간격을 위해 margin-top이 있지만,
+  // 2. <h2>요소 직후에 오는 경우엔 없다.
+  h3      { margin-top: 2rem } // 1
+  h2 + h3 { margin-top: 0 } // 2
+
+  // 글 본문 내 문단들
+  p, ul, ol,
+  pre {
+    margin-bottom: 0.5rem;
+  }
+}
