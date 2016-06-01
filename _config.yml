@@ -27,3 +27,8 @@ sass:
 
 lang: ko
 timezone: Asia/Seoul
+
+collections:
+  studies:
+    output: true
+    permalink: /study/:path/

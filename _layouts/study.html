@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{% if page.category %}{{ page.category }} - {% endif %}{{ page.title }}</h1>
+    {% if page.reference %}<p class="post-meta">참고: <a href="{{ page.reference.url }}" target="_blank">{{ page.reference.title }}</a></p>{% endif %}
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+</article>
