@@ -1,0 +1,21 @@
+{
+  "name": "jekyll-base",
+  "version": "1.0.0",
+  "description": "Jekyll을 시작하기 위한 템플릿입니다.",
+  "author": "심철환",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/s10n/jekyll-base.git"
+  },
+  "bugs": {
+    "url": "https://github.com/s10n/jekyll-base/issues"
+  },
+  "homepage": "https://github.com/s10n/jekyll-base#readme",
+  "scripts": {
+    "install": "bower install && grunt build"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1"
+  }
+}
