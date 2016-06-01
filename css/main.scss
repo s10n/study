@@ -1,7 +1,7 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
+# Main Sass file
 ---
 @charset "utf-8";
 
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import "syntax-highlighting";
+@import "vendors/bootstrap";
+@import "vendors/syntax-highlighting";
