@@ -34,7 +34,7 @@ timezone: Asia/Seoul
 collections:
   studies:
     output: true
-    permalink: /study/:path/
+    permalink: /:path/
 
 defaults:
   - scope:
