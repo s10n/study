@@ -1,2 +1,7 @@
-$headings-font-weight:       600;
-$font-size-h3:               1.1rem;
+$enable-flex:                   true;
+
+$body-bg:                       hsl(0, 0%, 96%);
+
+$headings-font-weight:          $bold;
+$blockquote-font-size:          1rem;
+$font-family-monospace:         "Source Code Pro", Menlo, Monaco, Consolas, "Courier New", monospace;

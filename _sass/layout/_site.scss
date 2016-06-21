@@ -1,0 +1,8 @@
+.site-header:after {
+  @include size(100%, 40vh);
+
+  background-color: $brand-primary;
+  content: "";
+  display: block;
+  flex-shrink: 0;
+}

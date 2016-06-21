@@ -1,11 +1,12 @@
 .post-content {
+  line-height: 1.75;
+
   // 글 본문 내 섹션 제목
-  // 1. 밑줄이 있다.
   h2 {
-    border-bottom: 1px solid $hr-border-color; // 1
+    border-bottom: 1px solid $hr-border-color;
     margin-top:    3rem;
     margin-bottom: 1rem;
-    padding-bottom: 0.5rem;
+    padding-bottom: .5rem;
   }
 
   // 글 본문 내 섹션 내 항목들의 제목
@@ -16,7 +17,5 @@
 
   // 글 본문 내 문단들
   p, ul, ol,
-  pre {
-    margin-bottom: 0.5rem;
-  }
+  pre { margin-bottom: .5rem }
 }

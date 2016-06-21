@@ -1,5 +1,16 @@
 // 글 영역
 // 1. 가독성을 위해 최대 폭을 제한한다.
 .post {
+  background-color: $white;
+  border-radius: 2px;
+  box-shadow: 0 4px 5px 0 hsla(0, 0%, 0%, 0.14),0 1px 10px 0 hsla(0, 0%, 0%, 0.12),0 2px 4px -1px hsla(0, 0%, 0%, 0.2);
+  margin: $grid-gutter-width auto;
+  margin-top: -40vh;
+  padding: $grid-gutter-width;
   max-width: map-get($container-max-widths, lg); // 1
+
+  @media (min-width: map-get($grid-breakpoints, sm)) {
+    margin-top: -35vh;
+    padding: (2 * $grid-gutter-width);
+  }
 }

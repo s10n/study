@@ -1,7 +1,36 @@
-// 인용
-// 1. 모든 인용은 부트스트랩이 제공하는 인용의 모양을 따른다.
-// 2. 불필요한 여백을 조정한다.
+body {
+  font-weight: $normal;
+}
+
 blockquote {
-  @extend .blockquote; // 1
-  p { @extend .m-b-0 } // 2
+  @extend .blockquote;
+  p { margin-bottom: 0 }
+}
+
+h1 {
+  font-size: 1.6rem;
+  @media (min-width: map-get($grid-breakpoints, sm)) {
+    font-size: 2.5rem;
+  }
+}
+
+h2 {
+  font-size: 1.25rem;
+  @media (min-width: map-get($grid-breakpoints, sm)) {
+    font-size: 1.75rem;
+  }
+}
+
+h3 {
+  font-size: 1.1rem;
+  @media (min-width: map-get($grid-breakpoints, sm)) {
+    font-size: 1.1rem;
+  }
+}
+
+ul, ol {
+  padding-left: 20px;
+  @media (min-width: map-get($grid-breakpoints, sm)) {
+    padding-left: 40px;
+  }
 }
