@@ -18,4 +18,7 @@
   // 글 본문 내 문단들
   p, ul, ol,
   pre { margin-bottom: .5rem }
+
+  // 레이블 위치 조정
+  .label { vertical-align: text-bottom }
 }
