@@ -1,17 +1,22 @@
 ---
 layout: default
 ---
+<article class="post">
 
-<div class="home">
+  <header class="post-header">
+    <h1 class="post-title">목차</h1>
+  </header>
 
-  <h1 class="page-heading">목록</h1>
+  {% assign cats = site.studies | group_by: 'category' %}
 
-  <ul class="study-list">
-    {% for study in site.studies %}
-      <li>
-        <a href="{{ study.url | prepend: site.baseurl }}">{% if study.category %}{{ study.category }} - {% endif %}{{ study.title }}</a>
-      </li>
+  <section class="post-content">
+    {% for cat in cats %}
+      <h2>{{ cat.name }}</h2>
+      <ul>
+        {% for article in cat.items %}
+          <li><a href="{{ article.url | prepend: site.baseurl }}">{{ article.title }}</a></li>
+        {% endfor %}
+      </ul>
     {% endfor %}
-  </ul>
 
-</div>
+</article>
