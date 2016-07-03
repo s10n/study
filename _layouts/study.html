@@ -5,7 +5,7 @@ layout: default
 
   <header class="post-header">
     <h1 class="post-title">{% if page.category %}{{ page.category }} - {% endif %}{{ page.title }}</h1>
-    {% if page.reference %}<p class="post-meta">참고: <a href="{{ page.reference.url }}" target="_blank">{{ page.reference.title }}</a></p>{% endif %}
+    {% if page.reference %}<p class="post-meta">참고: <a href="{{ page.reference.url }}">{{ page.reference.title }}</a></p>{% endif %}
   </header>
 
   <section class="post-content">
