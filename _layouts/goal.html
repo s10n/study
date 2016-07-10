@@ -59,3 +59,19 @@ layout: study
 {% endfor %}
 
 {{ content }}
+
+<h2>기술 스택</h2>
+<div class="row">
+  <div class="col-md-6">
+    <h3>완료</h3>
+    {% include goal-stack.html status='done' %}
+  </div>
+  <div class="col-md-6">
+    <h3>진행중</h3>
+    {% include goal-stack.html status='doing' %}
+    <h3>다음 차례</h3>
+    {% include goal-stack.html status='to do' %}
+    <h3>계획 있음</h3>
+    {% include goal-stack.html status='idea' %}
+  </div>
+</div>

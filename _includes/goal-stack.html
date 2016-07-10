@@ -1,0 +1,23 @@
+<ul class="list-unstyled">
+  {% for section in page.sections %}
+    {% for goal in section.goals %}
+      {% if goal.skills %}
+        {% for skill in goal.skills %}
+          {% if skill.tools or skill.references %}
+            {% for tool in skill.tools %}
+              {% if tool.status == include.status %}
+                <li><span>🛠</span> {{ section.title }} - {{ tool.title }}</li>
+              {% endif %}
+            {% endfor %}
+
+            {% for reference in skill.references %}
+              {% if reference.status == include.status %}
+                <li><span>📄</span> {{ section.title }} - {{ reference.title }}</li>
+              {% endif %}
+            {% endfor %}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+</ul>
