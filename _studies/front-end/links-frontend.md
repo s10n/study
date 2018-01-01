@@ -12,6 +12,7 @@ title: 링크들 - 프론트엔드
 * [Ant Design](https://ant.design)
 
 ### UX
+* 🇺🇸 [재사용성을 위한 테이블 설계](https://uxdesign.cc/designing-tables-for-reusability-490a3760533)
 * 🇰🇷 [Form - 효율적인 양식 디자인: 구조, 입력, 레이블 및 액션](https://blogs.adobe.com/creativedialogue/ko/design-ko/designing-more-efficient-forms-structure-inputs-labels-and-actions/) \| Adobe Korea
 
 

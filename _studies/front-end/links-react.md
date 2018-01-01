@@ -59,6 +59,7 @@ title: 링크들 - 리액트
 * 🇺🇸 [리액트 퓨어 렌더 퍼포먼스 안티 패턴](https://medium.com/@esamatti/react-js-pure-render-performance-anti-pattern-fb88c101332f)
 * [ ] 🇺🇸 [리액트 퍼포먼스 디버깅으로의 딥 다이브](https://benchling.engineering/a-deep-dive-into-react-perf-debugging-fd2063f5a667)
 * [ ] 🇺🇸 [리덕스는 느리지 않다, 그저 니가 잘못하고 있는 것이다 - 최적화 가이드](https://reactrocket.com/post/react-redux-optimization/)
+* [ ] 🇺🇸 [에어비앤비 목록 페이지에서의 리액트 성능 해결](https://medium.com/airbnb-engineering/recent-web-performance-fixes-on-airbnb-listing-pages-6cd8d93df6f4)
 
 ### 더 알아보기
 * [Events Live Cheatsheet](https://reactarmory.com/guides/react-events-cheatsheet)

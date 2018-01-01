@@ -11,6 +11,7 @@ title: 링크들 - 웹
 
 
 ### 자바스크립트
+* 🇺🇸 [모던 자바스크립트 튜토리얼](http://javascript.info/)︎︎︎︎︎ ✔︎
 * 🇰🇷 [자바스크립트 개발 가이드](https://github.com/nhnent/fe.javascript/wiki/시작하기) \| NHN Entertainment ✔︎
 * 🇺🇸 [Totally Tooling Tips with Addy Osmani & Matt Gaunt](https://www.youtube.com/playlist?list=PLNYkxOF6rcIB3ci6nwNyLYNU6RDOU3YyL) ✔︎ \| YouTube
 
